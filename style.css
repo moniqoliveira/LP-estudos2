@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+}
+
+header { 
+    background-color: lightblue;
+    
+}
+
+header img {
+    width: 45px;
+}
+
+header #icon-1 {
+    position: absolute;
+    right: 20px;
+}
+
+header #icon-2 {
+    position: absolute;
+    right: 70px;
+}
+aside {
+	width: 20%;
+	background-color: lightpink;
+    float: left;
+    height: 100vh;
+}
+
+aside img {
+	width: 20px;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+aside a {
+	display: block;
+	padding: 10px 20px;
+}
+
+aside ul {
+	padding: 0;
+}
+
+aside li {
+	list-style: none;
+}
+
+main {
+	width: 80%;
+	float: left;
+	background-color: lightgreen;
+	padding: 50px 30px;
+}
+
+main h2 {
+	float: left;
+	margin: 0;
+}
+
+main select {
+	float: right;
+	position: relative;
+	top: 4px;
+}
+
+section {
+	clear: both;
+	margin-top: 80px;
+}
+
+.cards {
+	width: 32.3%;
+	float: left;
+	height: 300px;
+	background-color: #fff;
+	border: 1px solid black;
+	margin-bottom: 40px;
+}
+.cards:nth-child(3n+2) {
+	margin: 0% 1.5%;
+}
+
+.progress-bar {
+	width: 32.3%;
+	float: left;
+	height: 50px;
+	background-color: #fff;
+	border: 1px solid black;
+	margin-bottom: 40px;
+}
